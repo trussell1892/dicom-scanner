@@ -2,5 +2,5 @@ from tkinter import *
 
 window = Tk()
 
-windows.title("Scan DICOM tool")
+window.title("Scan DICOM tool")
 
