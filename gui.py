@@ -1,10 +1,11 @@
 from tkinter import *
+from pompy import scan
 
 window = Tk()
 
 window.title("Scan DICOMs tool")
 
-btn = Button(window, text = "Scan DICOMs")
+btn = Button(window, text = "Scan DICOMs", command=scan)
 btn.grid(column=1, row=1)
 
 lbl = Label(window, text="Patient Name:")
